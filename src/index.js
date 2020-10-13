@@ -38,7 +38,7 @@ const MORSE_TABLE = {
 };
 
 function decode(expr) {
-   let buffRes=''; 
+     let buffRes=''; 
      let i=0;
     while(i<expr.length-1)
     {   
@@ -83,7 +83,6 @@ function decode(expr) {
     }
    
     return buffRes;
-}
 }
 
 module.exports = {
